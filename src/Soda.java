@@ -11,12 +11,18 @@
 public class Soda {
   private String additive;
 
-  public Soda(){
-    this.additive = "";
+  public Soda() {
+
   }
 
-  public Soda(String additive){
+  public Soda(String additive) {
     this.additive = additive;
   }
 
+  public String getMyDrinkString() {
+    if (additive == null) {
+      return "Обычная газировка";
+    }
+    return "Газировка и " + additive;
+  }
 }
