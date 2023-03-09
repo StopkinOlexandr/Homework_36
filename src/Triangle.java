@@ -13,4 +13,8 @@
 //
 //    При провале любой из проверок нужно вывести на экран соответствующее сообщение.
 public class Triangle {
+  public Triangle(int a, int b, int c) {
+
+
+  }
 }
